@@ -302,7 +302,7 @@ footer .bloc{
     }
     .tab{
         width: 80%;
-        margin: 0 10%;
+        margin: 0 10% 0% 10%;
     }
     footer{
         display: inline-block;
@@ -318,7 +318,10 @@ footer .bloc{
     }
     #presentation,#centres-interets,#diplomes,#experiences{
         width: 98%;
-        margin: 2% 1% 0 1%;
+        margin: 5% 1% 4% 1%;
+    }
+    #presentation p{
+        line-height : 250%;
     }
     #centres-interets li{
         width: 100%;
@@ -326,5 +329,9 @@ footer .bloc{
         margin: 0 0 2% 0;
         float: none;
         list-style-type: disc;
+    }
+    #diplomes li{
+        line-height : 200%;
+        margin-bottom: 5%;
     }
 }
