@@ -318,7 +318,7 @@ footer .bloc{
     }
     #presentation,#centres-interets,#diplomes,#experiences{
         width: 98%;
-        margin: 5% 1% 4% 1%;
+        margin: 5% 1% 5% 1%;
     }
     #presentation p{
         line-height : 250%;
@@ -333,5 +333,11 @@ footer .bloc{
     #diplomes li{
         line-height : 200%;
         margin-bottom: 5%;
+    }
+    #experiences{
+        line-height: 200%;
+    }
+    #experiences li{
+        
     }
 }
